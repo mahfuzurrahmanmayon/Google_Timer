@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #151515;
+}
+.time{
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.timer-buttons{
+    display: flex;
+    gap: 30px;
+}
+button,.custom{
+    padding: 16px 40px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 80px;
+    cursor: pointer;
+}
+button.start, .custom{
+    background-color: #1B75E7;
+}
+button.reset{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
